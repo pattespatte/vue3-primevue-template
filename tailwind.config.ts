@@ -8,12 +8,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        main: 'var(--font-family)',
+        theme: 'var(--font-family)',
       },
       colors: {
         primary: 'var(--primary-color)',
       },
     },
+  },
+  corePlugins: {
+    preflight: false,
   },
   plugins: [],
 } satisfies Config
