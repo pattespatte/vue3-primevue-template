@@ -8,8 +8,9 @@ export default {
 }
 </script>
 
+<SkipToContent />
+
 <template>
-  <SkipToContent />
   <div>
     <AppNav />
     <RouterView />

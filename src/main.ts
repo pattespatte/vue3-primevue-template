@@ -3,7 +3,7 @@ import { createApp } from 'vue'
 import PrimeVue from 'primevue/config'
 import ToastService from 'primevue/toastservice'
 import App from '@/App.vue'
-import { aboutRoute, homeRoute } from '@/home/router'
+import { aboutRoute, contactRoute, homeRoute } from '@/home/router'
 import { primeVueConfig } from '@/core/constants/prime-vue-config'
 import './index.css'
 
@@ -14,6 +14,7 @@ const router = createRouter({
   routes: [
     homeRoute,
     aboutRoute,
+    contactRoute,
   ],
 })
 app.use(router)

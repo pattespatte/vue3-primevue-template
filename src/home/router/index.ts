@@ -12,3 +12,9 @@ export const aboutRoute: RouteRecordRaw = {
   name: RouteName.ABOUT,
   component: () => import('@/home/views/AboutView.vue'),
 }
+
+export const contactRoute: RouteRecordRaw = {
+  path: '/contact',
+  name: RouteName.CONTACT,
+  component: () => import('@/home/views/ContactView.vue'),
+}
