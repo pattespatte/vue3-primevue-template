@@ -54,23 +54,23 @@ export default {
       <form class="space-y-4" @submit.prevent="handleSubmit">
         <div>
           <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
-          <InputText id="name" v-model="formData.name" class="mt-1 p-2 w-full border rounded-md" required />
+          <InputText id="name" v-model="formData.name" class="mt-1 p-2 w-full border border-neutral-500 rounded-md text-black bg-gray-100 hover:bg-gray-50" required />
         </div>
         <div>
           <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-          <InputText id="email" v-model="formData.email" class="mt-1 p-2 w-full border rounded-md" type="email" required />
+          <InputText id="email" v-model="formData.email" class="mt-1 p-2 w-full border border-neutral-500 rounded-md text-black bg-gray-100 hover:bg-gray-50" type="email" required />
         </div>
         <div>
           <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-          <Textarea id="message" v-model="formData.message" rows="4" class="mt-1 p-2 w-full border rounded-md" />
+          <Textarea id="message" v-model="formData.message" rows="4" class="mt-1 p-2 w-full border border-neutral-500 rounded-md text-black bg-gray-100 hover:bg-gray-50" />
         </div>
         <div>
           <label for="country" class="block text-sm font-medium text-gray-700">Country</label>
-          <Dropdown id="country" v-model="formData.country" :options="countries" option-label="name" placeholder="Select your country" class="mt-1 p-2 w-full border rounded-md" />
+          <Dropdown id="country" v-model="formData.country" :options="countries" option-label="name" placeholder="Select your country" class="mt-1 p-2 w-full border border-neutral-500 rounded-md text-black bg-gray-100 hover:bg-gray-50" />
         </div>
         <div>
           <label for="interests" class="block text-sm font-medium text-gray-700">Interests</label>
-          <div class="mt-2">
+          <div class="mt-2 pb-4">
             <div v-for="interest in interests" :key="interest.value" class="inline-flex items-center mr-4">
               <Checkbox id="interest" v-model="formData.interests" :value="interest.value" class="form-checkbox" />
               <label :for="interest.value" class="ml-2">{{ interest.label }}</label>
@@ -86,7 +86,8 @@ export default {
 </template>
 
 <style scoped>
-button {
-  cursor: pointer;;
+.p-checkbox {
+  border: 2px solid #633;
+  z-index: 10;
 }
 </style>
