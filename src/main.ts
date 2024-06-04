@@ -3,7 +3,7 @@ import { createApp } from 'vue'
 import PrimeVue from 'primevue/config'
 import ToastService from 'primevue/toastservice'
 import App from '@/App.vue'
-import { homeRoute } from '@/home/router'
+import { aboutRoute, homeRoute } from '@/home/router'
 import { primeVueConfig } from '@/core/constants/prime-vue-config'
 import './index.css'
 
@@ -13,6 +13,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     homeRoute,
+    aboutRoute,
   ],
 })
 app.use(router)

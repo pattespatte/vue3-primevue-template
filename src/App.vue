@@ -1,11 +1,17 @@
-<script lang="ts" setup>
-import { useTitle } from '@vueuse/core'
+<script>
+import AppNav from '@/components/AppNav.vue'
 
-useTitle('Hello, Vue')
+export default {
+  components: {
+    AppNav,
+  },
+}
 </script>
 
 <template>
-  <div class="w-full h-full">
-    <RouterView class="w-full h-full" />
+  <SkipToContent />
+  <div>
+    <AppNav />
+    <RouterView />
   </div>
 </template>

@@ -6,3 +6,9 @@ export const homeRoute: RouteRecordRaw = {
   name: RouteName.HOME,
   component: () => import('@/home/views/HomeView.vue'),
 }
+
+export const aboutRoute: RouteRecordRaw = {
+  path: '/about',
+  name: RouteName.ABOUT,
+  component: () => import('@/home/views/AboutView.vue'),
+}
