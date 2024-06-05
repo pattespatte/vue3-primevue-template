@@ -87,7 +87,5 @@ export default {
 
 <style scoped>
 .p-checkbox {
-  border: 2px solid #633;
-  z-index: 10;
-}
+  border-radius: 0.25rem;}
 </style>

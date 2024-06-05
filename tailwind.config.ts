@@ -21,10 +21,10 @@ export default {
   plugins: [],
 } satisfies Config
 
-module.exports = {
-  // ... other config options
-  mode: 'jit',
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-  // Add this line:
-  minify: true,
-}
+// module.exports = {
+//   // ... other config options
+//   mode: 'jit',
+//   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+//   // Add this line:
+//   minify: true,
+// }
