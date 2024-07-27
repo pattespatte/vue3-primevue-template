@@ -27,6 +27,6 @@ export default {
         <li>Team Member 2</li>
       </ul>
     </section>
-    <img src="https://picsum.photos/350/250" alt="Random Image" class="mt-8">
+    <img src="https://picsum.photos/450/300" alt="Random Image" class="mt-8">
   </main>
 </template>
