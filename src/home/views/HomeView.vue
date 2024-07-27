@@ -4,7 +4,7 @@
   <div class="bg-gray-100">
     <!-- Hero Section -->
     <section class="flex items-center justify-center h-screen bg-cover bg-center" style="background-image: url('https://picsum.photos/800/400?grayscale')">
-      <div class="text-center text-white p-8 bg-black bg-opacity-50 rounded-lg">
+      <div class="text-center text-white p-8 bg-black bg-opacity-50 rounded-lg mb-44">
         <p class="childlike-text-block text-lg">
           Trying out PrimeVue with Vue 3. Tailwind CSS is also used.
         </p>
