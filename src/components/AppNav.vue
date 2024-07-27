@@ -3,9 +3,9 @@ export default {
   data() {
     return {
       navigationItems: [
-        { label: "Home", route: "/" },
-        { label: "About", route: "/about" },
-        { label: "Contact", route: "/contact" },
+        { label: 'Home', route: '/' },
+        { label: 'About', route: '/about' },
+        { label: 'Contact', route: '/contact' },
       ],
     };
   },
@@ -22,6 +22,7 @@ export default {
       >
         My Website
       </router-link>
+      <p class="text-sm text-gray-300 px-4">Publicly available at <a href="https://pattespatte.github.io/vue3-primevue-template/">https://pattespatte.github.io/vue3-primevue-template/</a>.</p>
       <ul class="flex space-x-6">
         <li v-for="item in navigationItems" :key="item.label">
           <router-link

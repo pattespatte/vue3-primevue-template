@@ -1,12 +1,13 @@
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div class="bg-gray-100">
     <!-- Hero Section -->
-    <section class="flex items-center justify-center h-screen bg-cover bg-center" style="background-image: url('https://picsum.photos/800/400?grayscale');">
+    <section class="flex items-center justify-center h-screen bg-cover bg-center" style="background-image: url('https://picsum.photos/800/400?grayscale')">
       <div class="text-center text-white p-8 bg-black bg-opacity-50 rounded-lg">
-        <p class="childlike-text-block text-lg">Trying out PrimeVue with Vue 3.  Tailwind CSS is also used.</p>
+        <p class="childlike-text-block text-lg">
+          Trying out PrimeVue with Vue 3. Tailwind CSS is also used.
+        </p>
         <h1 class="text-4xl font-bold">Welcome to Our Corporate Site</h1>
         <p class="mt-4 text-lg">Your tagline or corporate copy goes here.</p>
         <router-link to="/about">
@@ -43,7 +44,9 @@
       <div class="max-w-7xl mx-auto text-center">
         <h2 class="text-3xl font-bold">What Our Clients Say</h2>
         <div class="mt-8">
-          <blockquote class="italic">"This is an amazing product!" - Happy Client</blockquote>
+          <blockquote class="italic">
+            "This is an amazing product!" - Happy Client
+          </blockquote>
         </div>
       </div>
     </section>
